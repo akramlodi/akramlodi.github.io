@@ -18,7 +18,8 @@ d88P     888 888    Y88b 888   T88b d88P     888 888       888
 
 # Duckquill
 
-Akram, and clean [Zola](https://www.getzola.org) theme that has the purpose of greatly simplifying the process of rolling up your blog. This is great
+Hi!,
+I'm Akram, a computer science major and I'm interested in the intersection of tech and business. I'm currently building pocketlink.co (the coolest link in bio tool out there). Feel free to checkout my other projects, and blogs (on all things tech, including startups, AI, and occasional ranting).
 
 With it, you can change some configuration variables, tweak some of the included graphics, and have a nice blog up in minutes!
 
