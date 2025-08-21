@@ -12,11 +12,11 @@ title = "Home"
    d88P  888 8888888b    8888888P"     d88P  888 888 Y888P 888
   d88P   888 888  Y88b   888 T88b     d88P   888 888  Y8P  888
  d8888888888 888   Y88b  888  T88b   d8888888888 888   "   888
-d88P     888 888    Y88b 888   T88b d88P     888 888       888                                            
+d88P     888 888    Y88b 888   T88b d88P     888 888       888
 ```
 {% end %}
 
-# Duckquill
+# My portfolio
 
 Hi!,
 I'm Akram, a computer science major and I'm interested in the intersection of tech and business. I'm currently building pocketlink.co (the coolest link in bio tool out there). Feel free to checkout my other projects, and blogs (on all things tech, including startups, AI, and occasional ranting).
