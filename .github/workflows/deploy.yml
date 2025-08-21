@@ -37,6 +37,9 @@ jobs:
       - name: Build with Zola
         run: zola build --base-url "${{ steps.pages.outputs.base_url }}/"
 
+      - name: Add .nojekyll file
+        run: touch ./public/.nojekyll
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
