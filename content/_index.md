@@ -14,7 +14,7 @@ jgs~^~^`---'~^~^~^`---'~^~^~^`---'~^~^~^`---'~^~^~^`---'~^~^~
 
 # Duckquill
 
-Duckquill is an opinionated, modern, pretty, and clean [Zola](https://www.getzola.org) theme that has the purpose of greatly simplifying the process of rolling up your blog. It aims to provide all the necessary options for comfortable writing, while keeping the balance of simplicity.
+Akram, and clean [Zola](https://www.getzola.org) theme that has the purpose of greatly simplifying the process of rolling up your blog. It aims to provide all the necessary options for comfortable writing, while keeping the balance of simplicity.
 
 With it, you can change some configuration variables, tweak some of the included graphics, and have a nice blog up in minutes!
 

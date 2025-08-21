@@ -39,56 +39,6 @@ github_alerts = true
 # index_format = "elasticlunr_json"
 index_format = "fuse_json"
 
-[languages.ar]
-title = "Duckquill"
-description = "سمة زولا العصرية والحديثة والجميلة والنظيفة."
-generate_feeds = true
-
-taxonomies = [{ name = "tags", feed = true }]
-
-[languages.es]
-title = "Duckquill"
-description = "Tema Zola de opinión, moderno, bonito y limpio."
-generate_feeds = true
-
-taxonomies = [{ name = "tags", feed = true }]
-
-[languages.fr]
-title = "Duckquill"
-description = "Un thème affirmé, moderne, beau et clair pour Zola."
-generate_feeds = true
-
-taxonomies = [{ name = "tags", feed = true }]
-
-
-[languages.ms]
-title = "Duckquill"
-description = "Tema Zola yang berpandangan, moden, cantik dan bersih."
-generate_feeds = true
-
-taxonomies = [{ name = "tags", feed = true }]
-
-[languages.ru]
-title = "Duckquill"
-description = "Мнимая, современная, симпатичная, и аккуратная тема Zola."
-generate_feeds = true
-
-taxonomies = [{ name = "tags", feed = true }]
-
-[languages.fa]
-title = "Duckquill"
-description = "پوسته ای صاحب نظر، به‌روز، زیبا و تمیز برای Zola."
-generate_feeds = true
-
-taxonomies = [{ name = "tags", feed = true }]
-
-[languages.zh-Hans]
-title = "Duckquill"
-description = "有主见、现代、漂亮、简洁的 Zola 主题。"
-generate_feeds = true
-
-taxonomies = [{ name = "tags", feed = true }]
-
 [extra]
 # Which theme should be used by default (light/dark).
 #
