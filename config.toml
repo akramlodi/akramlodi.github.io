@@ -147,7 +147,10 @@ show_repo = false
 # See https://www.getzola.org/documentation/content/linking/#internal-links
 links = [
 	{ url = "@/blog/_index.md", name = "Blog" },
-	{ url = "@/projects/_index.md", name = "Projects" }
+	{ url = "@/projects/_index.md", name = "Projects" },
+	{ url = "https://github.com/akramlodi", name = "GitHub"},
+
+	{ url = "https://www.linkedin.com/in/mdakramlodi", name = "LinkedIn" }
 ]
 
 [extra.footer]
