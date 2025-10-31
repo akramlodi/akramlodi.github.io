@@ -1,5 +1,5 @@
 title = "Akram"
-base_url = "/"
+base_url = "https://akramlodi.com"
 description = "Akram's portfolio"
 
 compile_sass = true
