@@ -42,7 +42,7 @@ index_format = "fuse_json"
 [extra]
 # Which theme should be used by default (light/dark).
 #
-# default_theme = "dark"
+# default_theme = "light"
 #
 # Sets theme and browser theme color.
 # See https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta/name/theme-color

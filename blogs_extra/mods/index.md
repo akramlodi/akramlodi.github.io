@@ -7,7 +7,7 @@ toc_sidebar = true
 
 Mods enhance/change some Duckquill visuals. They are updated alongside Duckquill to ensure that you don't need to manually update them every release.
 
-To enable these mods, you need to paste provided Sass to [appropriate file](@/_index.md#custom-styles), e.g `sass/mods.scss` under your website, then enable it in `config.toml`:
+
 
 ```toml
 [extra]

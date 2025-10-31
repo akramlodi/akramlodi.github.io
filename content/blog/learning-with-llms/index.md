@@ -11,6 +11,7 @@ banner = ""
 toc = true
 toc_inline = true
 toc_ordered = true
+featured = true
 disclaimer = """
 - No neurons were harmed in the making of this study method (except maybe a few around 3 AM). 
 - This post is not a replacement for good sleep, consistent study habits, or actual human willpower. 
