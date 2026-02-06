@@ -26,7 +26,7 @@ I'm Akram, a computer science major and I'm interested in the intersection of te
 
 
 ### Pocketlink
-**Website**: [Pocketlink.co](https://pocketlink.co)
+**Website**: [Pocketlink.co](https://www.instagram.com/pocketlink.co/)
 
 Pocketlink is an AI powered link in bio thats optimized for sales and conversions [way better than link tree].
 
