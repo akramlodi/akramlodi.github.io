@@ -52,7 +52,7 @@ I'm Akram, a computer science major and I'm interested in the intersection of te
 Pocketlink is an AI powered link in bio thats optimized for sales and conversions [way better than link tree]. 
 
 ### Studentic
-**Website**: [Studentic](https://Studentic.vercel.com)
+**Website**: [Studentic](https://Studentic.vercel.app)
 
 Studentic is a rapid revision website designed for students to learn on the go. It provides efficient, on-the-go learning tools that make revision easier and faster for students.
 
