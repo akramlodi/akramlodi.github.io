@@ -1,21 +1,20 @@
 +++
-authors = ["Mohammed Akram"]
-title = "Learning with LLM's"
-description = "This is a post about my experience learning with LLM's for my university"
+
+title = "Building Pocketlink"
+description = "Things I learned building a startup catered around influencers, and quick e-commerce."
 date = 2025-04-25
 
-[taxonomies]
-tags = ["Learn", "exams", "university"]
+
+
+
 [extra]
 banner = ""
 toc = true
 toc_inline = true
 toc_ordered = true
-featured = true
+featured = false
 disclaimer = """
-- No neurons were harmed in the making of this study method (except maybe a few around 3 AM). 
-- This post is not a replacement for good sleep, consistent study habits, or actual human willpower. 
-- Side effects may include overconfidence, caffeine addiction, and developing an emotional attachment to your AI. Use responsibly.
+- Things I learned building a startup catered around influencers, and quick e-commerce.
 """
 [extra.comments]
 # Long thread with image
