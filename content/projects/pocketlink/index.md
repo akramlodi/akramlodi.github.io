@@ -77,7 +77,7 @@ After a few days of market research and competitor analysis, we launched — and
 
 Important to note: we hadn't made any money yet. Everything was completely free, and we started to focus on tech and marketing. We started using Docker, Kubernetes, and Supabase Pro as we allowed users to store images, videos, and GIFs, all for free.
 
-We started building more and more features, things like email marketing that allowed creators to run campaigns to thousands of people without ending up in the spam folder or getting blocked.
+We started building more and more features, things like email marketing that allowed creators to run campaigns to thousands of people without ending up in the spam folder or getting blocked, optimizing loading speed, system design for handling thousands of concurrent users, in-depth analytics for creators, and so much more.
 
 On the marketing side, we started filming videos, reached out to our circle, pure organic growth, no ads. Instagram page: https://www.instagram.com/pocketlink.co/
 
