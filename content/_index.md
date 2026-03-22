@@ -24,11 +24,11 @@ I'm Akram, a computer science major and I'm interested in the intersection of te
 
 ## Work History
 
-- **AirBil Studios** — Founder & CEO  
+- **[AirBil Studios](https://airbil.co)** — Founder & CEO  
        *Nov 2025 — Present*  
        Building an AI-adoption agency helping local businesses integrate AI solutions and capture value quickly.
 
-- **Pocketlink** — Founder & CTO  
+- **[Pocketlink](https://www.instagram.com/pocketlink.co/)** — Founder & CTO  
        *Feb 2025 — Oct 2025*  
        Built an AI-powered link-in-bio optimized for sales and conversions; reached ~20k users and partnered with creators such as Varun Padmanabhan (80K followers).
 
