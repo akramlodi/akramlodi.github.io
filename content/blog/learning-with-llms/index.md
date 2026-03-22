@@ -109,7 +109,6 @@ If your exam involves coding, you could also ask it for example questions, which
 
 ### Final Result
 CGPA: 9.76/10
-(Just to reiterate my stance, am I narcissistic? Probably.)
 
 That’s pretty much it. Considering that LLMs (Large Language Models) are trained on internet data, I like to use simple language when prompting them. Also, there hasn't been any formal study into using the word "Please" when prompting LLMs to give you better results, but I do think that when the AI takes over, considering the fact that I was kind to it despite slaving it for hours every day, it might not torture me.
 

@@ -13,9 +13,7 @@ toc = true
 toc_inline = true
 toc_ordered = true
 featured = false
-disclaimer = """
-- Things I learned building a startup catered around influencers, and quick e-commerce.
-"""
+
 [extra.comments]
 # Long thread with image
 #
@@ -62,56 +60,44 @@ Other sizes will also work, but will be cut off at the bottom/won't be high enou
 <figcaption>The Office where Stanley works, it has yellow floor and beige walls</figcaption>
 </figure> -->
 
-## The problem:
-Let's face it, it's a pretty fast-paced world, and I'm not really a fan of sitting down and browsing Google or YouTube to learn about something. Too many ads, too many "This site uses cookies..." pop-ups, and too much fluff. I have an exam in a few hours and don't have the time nor patience to sit through all of that...
 
-## My solution
+## The Problem
 
-So, being the considerate student that I am, instead of studying consistently and managing my mental health, I decided to use AI to study the night before my exams.
+Bento.me was one of the most popular link-in-bio tools and was on track to being acquired, leaving a gap in the market, because let's face it, Linktree has a really bad UI and not something a content creator would be proud to put in their bio. On top of that, there was also the problem of wanting an e-commerce platform that would allow selling directly within the link-in-bio, what I call optimized for sales and conversions. I had worked on customer retention for a while when building Schedrix, and what we found was that customers lose interest if the checkout process is too long with too many steps.
 
-What better way to test if learning via AI works than giving it to a caffeine-addicted student the night before his test? Which is exactly what I did.
+## The Solution
 
-### Here's how I do it
-Take a look at the syllabus and gather all your materials into one place (your notes, PPTs, PDFs, etc.).
+So we built Pocketlink, a link-in-bio optimized for sales and conversions, directed at content creators and anyone who wants to sell on the internet.
 
-Ask the AI to explain each of the topics in your syllabus in simple words, considering you’re a beginner on the subject:
+Pocketlink had two main features:
+1. An aesthetic link-in-bio.
+2. Sell and manage anything in a few quick steps.
 
-```prompt
-"Please explain each of the above topics in simple words, I am a complete beginner on this topic, and provide real-world examples wherever necessary."
+After a few days of market research and competitor analysis, we launched — and it kind of blew up. We got close to 800 sign-ups in the first few days. This was the first time we had gotten this much traction, so we decided to drill down on the idea and considered it as validation (which, looking back, was not correct, would recommend reading *The Mom Test*, a book on validating ideas).
 
-"Give me a general abstraction on each of these topics, and explain like I'm 5."
-```
+Important to note: we hadn't made any money yet. Everything was completely free, and we started to focus on tech and marketing. We started using Docker, Kubernetes, and Supabase Pro as we allowed users to store images, videos, and GIFs, all for free.
 
-Start dumping all of this (my study material like PPTs and notes) into ChatGPT or NotebookLM, and then ask it to give a general overview on each of these topics in simple words.
+We started building more and more features, things like email marketing that allowed creators to run campaigns to thousands of people without ending up in the spam folder or getting blocked.
 
-Once you get a good understanding of the content, you can start going into details by prompting:
+On the marketing side, we started filming videos, reached out to our circle, pure organic growth, no ads. Instagram page: https://www.instagram.com/pocketlink.co/
 
-```prompt
-"Please go into details for [topic_name]"
-```
-If you think it's too wordy for you, ask it to use simple words/language.
-If previous year papers are available, finally add them in and ask AI for the answers. This helps to set the stage up and gives you a good understanding of the content. Provided your professor sets the paper in a similar pattern, this is a huge help.
+This went on for a few months, grinding out code, late nights fixing bugs and pushing new features — without realizing one simple thing: we still hadn't made money and were burning through cash. Supabase Pro was $25 a month, our biggest cost at the time.
 
-I repeat this process for each of the topics, and I'm done. This usually takes me a few hours (2-3) depending on the content.
-
-Note
-Well, the above method only works for my uni exams because they are theory-intensive. When I have to learn something general, like networks or algorithms, I use the following prompt and ask follow-up questions:
-
-```prompt
-"Please explain [topic] in simple words. I am a complete beginner. Start with an abstraction of the topic and then go into details. Please provide real-world applications and examples."
-```
+Eventually, we decided to shut it down. This is often referred to as the 90-day lifespan of a startup — new startups often have roughly 90 days to build, execute, and validate. If it doesn't make money within that window, it shuts down.
 
 {% alert(tip=true) %}
-If your exam involves coding, you could also ask it for example questions, which helps in practicing and getting a good understanding of the subject.
+Book Recommendation: The Mom Test
 {% end %}
 
+## Lessons and Things I Would Do Differently
 
-### Final Result
-CGPA: 9.76/10
-(Just to reiterate my stance, am I narcissistic? Probably.)
-
-That’s pretty much it. Considering that LLMs (Large Language Models) are trained on internet data, I like to use simple language when prompting them. Also, there hasn't been any formal study into using the word "Please" when prompting LLMs to give you better results, but I do think that when the AI takes over, considering the fact that I was kind to it despite slaving it for hours every day, it might not torture me.
+1. **The only validation is money.**
+2. **Find the problem first, build later.** Focus on the core feature or features.
+3. **The first few days and weeks must be spent purely on validating** and understanding if this is even a problem worth solving. A really good way to do this is by asking: does the user move from a negative emotion to a positive one? Does this save time or money? And most importantly, is there anyone who opens their wallet?
+4. **VCs and startups make sense if you, as founders, have past achievements** or something that sets you apart. We'd love for Y Combinator to accept us someday.
+5. **Prototype and push your MVP as soon as possible** once you understand the problem well enough. It's easier than ever now, use tools like Claude Code (use Next.js for web, AI has been trained really well on it), Supabase for your database, Vercel for deployments, and GitHub for storing your repo.
+6. **Start building content — that's the only moat that exists** when building tech becomes easy and quick. Only those who tell good stories and have solid distribution channels win, because otherwise it's impossible to stand out or reach an audience.
 
 {% alert(tip=true) %}
-Remember: be kind to your AI. You never know what might come back to haunt you after exams. 😉
+Remember: The people who often win in this space are those who keep at it for a long time. Actions are much better than overthinking your idea.
 {% end %}
