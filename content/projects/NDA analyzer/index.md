@@ -28,6 +28,8 @@ I wanted to see whether a team of specialized AI agents could perform this analy
 
 Rather than asking a model to "analyze this NDA," I wanted to build a pipeline where each AI agent had a single responsibility.
 
+Live project: https://nda-analyzer.akramlodi.com
+
 ## The Solution
 
 I built an AI-powered NDA Analyzer focused on Indian employment NDAs.
