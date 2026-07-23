@@ -122,10 +122,10 @@ csp = [
 	{ directive = "font-src", domains = ["'self'"] },
 	{ directive = "img-src", domains = ["'self'", "https:", "data:"] },
 	{ directive = "media-src", domains = ["'self'", "https:"] },
-	{ directive = "script-src", domains = ["'self'"] },
+	{ directive = "script-src", domains = ["'self'", "https://us.i.posthog.com"] },
 	{ directive = "style-src", domains = ["'self'", "'unsafe-inline'"] },
 	{ directive = "frame-src", domains = ["https://player.vimeo.com", "https://www.youtube-nocookie.com", "https://toot.community"] },
-	{ directive = "connect-src", domains = ["https://toot.community"] },
+	{ directive = "connect-src", domains = ["https://toot.community", "https://us.i.posthog.com"] },
 	{ directive = "base-uri", domains = ["'none'"] },
 	{ directive = "form-action", domains = ["'none'"] }
 ]
