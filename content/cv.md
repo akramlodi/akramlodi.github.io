@@ -26,17 +26,17 @@ Transferred from the University of Victoria
 - GPA 7.89 / 9
 - Coursework: Fundamentals of Programming with Engineering Applications; Matrix Algebra for Engineers; Calculus I; Calculus II
 
-## Publications & papers under review
+## Publications & manuscripts in preparation
 
 - **[Self-Harnessing Recursive Language Models](@/research/self-harnessing-rlms/index.md)**  
   William Stanford, **Mohammed Akram Khan Lodi**, Jaloliddin Boymakhammadov, Eliaz Calvar, Simon Coumes  
-  *Submitted to the First Workshop on Meta Agents: Managing Agents that Manage Agents, NeurIPS 2026* (under review)
+  *Manuscript in preparation; targeting an AAAI 2027 workshop* · [code](https://github.com/akramlodi/rlm_self_harness)
 
 ## Presentations
 
 - **[The Carbon Cost of Reasoning: Benchmarking Energy Efficiency in Fine-Tuning Gemma 4 for Mathematical Logic](@/research/carbon-cost-of-reasoning/index.md)**  
   National AI Summit on Industry 5.0, 2026 · B.S. Abdur Rahman Crescent Institute of Science and Technology, Chennai  
-  Paper ID AIS 052 · Accepted & presented, Apr 2026 · [Proceedings](https://drive.google.com/file/d/1SklCgsuYjd8BWy3lgWytgx1N1_dLAlR6/view?usp=share_link)
+  Paper ID AIS 052 · Accepted & presented, Apr 2026 · [Proceedings](https://drive.google.com/file/d/1SklCgsuYjd8BWy3lgWytgx1N1_dLAlR6/view?usp=share_link) · [code](https://github.com/akramlodi/Carbon-cost-of-reasoning)
 
 ## Research experience
 

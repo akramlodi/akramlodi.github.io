@@ -9,8 +9,8 @@ authors = ["William Stanford", "Mohammed Akram Khan Lodi", "Jaloliddin Boymakham
 tags = ["recursive language models", "agent harnesses", "self-improvement", "long context"]
 
 [extra]
-status = "Under review · experiments ongoing"
-venue = "Submitted to the NeurIPS 2026 Workshop on Meta Agents"
+status = "In preparation · experiments ongoing"
+venue = "Manuscript in preparation; targeting an AAAI 2027 workshop"
 katex = true
 toc = true
 +++
@@ -19,7 +19,7 @@ toc = true
 <dt>Authors</dt>
 <dd>William Stanford, <strong>Mohammed Akram Khan Lodi</strong>, Jaloliddin Boymakhammadov, Eliaz Calvar, Simon Coumes</dd>
 <dt>Venue</dt>
-<dd>Submitted to the First Workshop on Meta Agents: Managing Agents that Manage Agents, NeurIPS 2026 (under review)</dd>
+<dd>Manuscript in preparation; targeting an AAAI 2027 workshop (submission expected November 2026)</dd>
 <dt>Program</dt>
 <dd>Algoverse AI Research Program · Advisor: Dr. Simon Coumes</dd>
 <dt>Timeline</dt>
@@ -27,6 +27,10 @@ toc = true
 <dt>Status</dt>
 <dd><span class="status-pill">Infrastructure built · weakness mining running · proposal, validation and evaluation in progress</span></dd>
 </dl>
+
+<ul class="link-row">
+<li><a href="https://github.com/akramlodi/rlm_self_harness">Code on GitHub</a></li>
+</ul>
 
 ## TL;DR
 

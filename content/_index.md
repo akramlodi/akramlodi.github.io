@@ -39,11 +39,11 @@ Before research, I built AI products. I co-founded [Airbil](https://airbil.in), 
 
 - **Self-Harnessing Recursive Language Models**  
   W. Stanford, **M. A. K. Lodi**, J. Boymakhammadov, E. Calvar, S. Coumes  
-  *Submitted to the NeurIPS 2026 Workshop on Meta Agents* (under review) · [details](@/research/self-harnessing-rlms/index.md)
+  *Manuscript in preparation; targeting an AAAI 2027 workshop* · [details](@/research/self-harnessing-rlms/index.md) · [code](https://github.com/akramlodi/rlm_self_harness)
 
 - **The Carbon Cost of Reasoning: Benchmarking Energy Efficiency in Fine-Tuning Gemma 4 for Mathematical Logic**  
   **M. A. K. Lodi**  
-  *National AI Summit on Industry 5.0, April 2026*, accepted & presented (Paper ID AIS 052) · [details](@/research/carbon-cost-of-reasoning/index.md) · [proceedings](https://drive.google.com/file/d/1SklCgsuYjd8BWy3lgWytgx1N1_dLAlR6/view?usp=share_link)
+  *National AI Summit on Industry 5.0, April 2026*, accepted & presented (Paper ID AIS 052) · [details](@/research/carbon-cost-of-reasoning/index.md) · [proceedings](https://drive.google.com/file/d/1SklCgsuYjd8BWy3lgWytgx1N1_dLAlR6/view?usp=share_link) · [code](https://github.com/akramlodi/Carbon-cost-of-reasoning)
 
 ## Education
 

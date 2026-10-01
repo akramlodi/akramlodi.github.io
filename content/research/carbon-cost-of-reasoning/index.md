@@ -28,7 +28,7 @@ toc = true
 
 <ul class="link-row">
 <li><a href="https://drive.google.com/file/d/1SklCgsuYjd8BWy3lgWytgx1N1_dLAlR6/view?usp=share_link">Proceedings</a></li>
-<li><span>Code: released with results</span></li>
+<li><a href="https://github.com/akramlodi/Carbon-cost-of-reasoning">Code on GitHub</a></li>
 </ul>
 
 ## TL;DR
@@ -118,7 +118,7 @@ To avoid wasting compute, all pipeline development (smoke tests, prompt and eval
 | 4. Write-up | Results synthesis, full paper | Planned |
 
 > [!NOTE]
-> The study design and motivation were presented at the National AI Summit on Industry 5.0 (April 2026). The full set of energy-tracked runs is still running, so **no final numbers are reported here yet.** The code, logs, and results will be released together.
+> The study design and motivation were presented at the National AI Summit on Industry 5.0 (April 2026). The full set of energy-tracked runs is still running, so **no final numbers are reported here yet.** Code is [on GitHub](https://github.com/akramlodi/Carbon-cost-of-reasoning); logs and results will be added there when the runs finish.
 
 ## Expected contributions
 
