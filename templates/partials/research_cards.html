@@ -1,0 +1,18 @@
+{%- set research = get_section(path="research/_index.md") -%}
+<div id="article-list">
+	{%- for page in research.pages %}
+		<article>
+			<a href="{{ page.permalink | safe }}"></a>
+			{%- if page.extra.status %}
+				<span class="badge status">{{ page.extra.status }}</span>
+			{%- endif %}
+			<h3>{{ page.title }}</h3>
+			{%- if page.extra.venue %}
+				<p class="venue"><small>{{ page.extra.venue }}</small></p>
+			{%- endif %}
+			{%- if page.description %}
+				{{ page.description | markdown | safe }}
+			{%- endif %}
+		</article>
+	{%- endfor %}
+</div>

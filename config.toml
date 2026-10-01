@@ -1,0 +1,222 @@
+title = "Akram"
+base_url = "https://akramlodi.com"
+description = "Mohammed Akram Khan Lodi — CS undergraduate researching recursive language models, self-improving agent harnesses, and the energy cost of efficient AI."
+
+compile_sass = true
+minify_html = true
+generate_feeds = false
+# Only the first file will be used in the navbar feed button,
+# other feeds will still be available in page's head.
+feed_filenames = ["rss.xml", "atom.xml"]
+build_search_index = true
+author = "Mohammed Akram Khan Lodi"
+
+# Based on https://github.com/welpo/tabi
+#
+# To translate the entire theme, there must be a file with the same ISO 639-1 or BCP 47
+# language code in the `i18n` directory of your site or the Duckquill theme.
+# For example, "i18n/fr.toml" for French or "i18n/zh-Hans.toml" for Simplified Chinese.
+# Otherwise the theme will be in English.
+#
+# ISO 639-1: https://localizely.com/iso-639-1-list/
+# BCP 47: https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
+default_language = "en"
+
+taxonomies = [{ name = "tags", feed = true }]
+
+[markdown]
+highlight_code = true
+highlight_theme = "css"
+highlight_themes_css = [
+	{ theme = "solarized-dark", filename = "syntax-theme-dark.css" },
+	{ theme = "solarized-light", filename = "syntax-theme-light.css" }
+]
+smart_punctuation = true
+bottom_footnotes = true
+github_alerts = true
+
+[search]
+# index_format = "elasticlunr_json"
+index_format = "fuse_json"
+
+[extra]
+# Which theme should be used by default (light/dark).
+#
+# default_theme = "light"
+#
+# Sets theme and browser theme color.
+# See https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta/name/theme-color
+accent_color = "#ff7800"
+# Ditto but for the dark theme.
+# If not set regular variant will be used.
+accent_color_dark = "#ffa348"
+# Whether to use fonts bundled with Duckquill instead of system ones.
+# Keep in mind that it also changes the style of headings.
+#
+# bundled_fonts = true
+#
+# Use emoji as a favicon.
+# Only one emoji is being rendered, everything else is truncated.
+#
+# emoji_favicon = "🦆🪶"
+#
+# URL to website's issue tracker
+# (left unset: otherwise every article shows a "File an Issue" button)
+#
+# issues_url = ""
+#
+# URL to website's source code
+#
+# source_url = ""
+# Additional CSS styles; expects them to be in the "./static/" directory.
+# If you are using Sass it will be generated there automatically.
+#
+# styles = [
+#   "YOUR_STYLE.css",
+#   "ALSO_YOUR_STYLE.css"
+# ]
+#
+# Additional JavaScript scripts; expects them to be in the "./static/" directory.
+#
+# scripts = [
+#   "YOUR_SCRIPT.js",
+#   "ALSO_YOUR_SCRIPT.js"
+# ]
+#
+# Whether to show "copy code" button on all code blocks
+# that have the language set.
+# See https://www.getzola.org/documentation/content/syntax-highlighting/
+show_copy_button = true
+# Whether to show estimated read time in posts.
+show_reading_time = true
+#
+# Whether to show a share button in article's quick actions.
+# Uses https://shareopenly.org.
+show_share_button = true
+# Whether to show the backlinks button for linked articles in the article's quick actions
+show_backlinks = true
+# Whether to enable the KaTeX library for rendering LaTeX.
+# Note: This will make your page significantly heavier.
+# Instead, consider enabling it per page/section.
+# katex = true
+#
+# Whether to render table of contents on all pages.
+# Will not be rendered if page doesn't have any headings.
+# Can be set per page/section.
+# toc = true
+#
+# Whether to render inline table of contents at the top of all pages,
+# in addition to floating quick navigation buttons.
+# Can be set per page/section.
+# toc_inline = true
+#
+# Whether to use numbered (ordered) list for table of contents.
+# Can be set per page/section.
+# toc_ordered = true
+#
+# Custom separator used across the theme.
+# separator = "•"
+# Custom separator used in title tag and posts metadata.
+# title_separator = "-"
+#
+# Whether to use Content Security Policy.
+# Keep in mind that although this can potentially increase security,
+# it can break some stuff, in which case you will need to set custom policy.
+csp = [
+	{ directive = "font-src", domains = ["'self'"] },
+	{ directive = "img-src", domains = ["'self'", "https:", "data:"] },
+	{ directive = "media-src", domains = ["'self'", "https:"] },
+	{ directive = "script-src", domains = ["'self'"] },
+	{ directive = "style-src", domains = ["'self'", "'unsafe-inline'"] },
+	{ directive = "frame-src", domains = ["https://player.vimeo.com", "https://www.youtube-nocookie.com", "https://toot.community"] },
+	{ directive = "connect-src", domains = ["https://toot.community"] },
+	{ directive = "base-uri", domains = ["'none'"] },
+	{ directive = "form-action", domains = ["'none'"] }
+]
+# Uncomment this to disable the card displayed in share previews
+# card = false
+
+[extra.nav]
+# Whether to automatically hide nav when not hovered or focused
+# auto_hide = true
+# Whether to show the Atom/RSS feed button in the nav
+show_feed = false
+# Whether to show the manual theme switcher in the nav
+show_theme_switcher = true
+# Whether to show the link to the source repository in the nav
+show_repo = false
+# Links used in the nav.
+# For local files use same link format as in Markdown,
+# i.e. "@/blog/_index.md".
+# See https://www.getzola.org/documentation/content/linking/#internal-links
+links = [
+	{ url = "@/research/_index.md", name = "Research" },
+	{ url = "@/projects/_index.md", name = "Projects" },
+	{ url = "@/blog/_index.md", name = "Blog" },
+	{ url = "@/cv.md", name = "CV" },
+	{ url = "https://github.com/akramlodi", name = "GitHub"},
+	{ url = "https://www.linkedin.com/in/mdakramlodi", name = "LinkedIn" }
+]
+
+[extra.footer]
+# Links used in the footer.
+# Same as the nav ones.
+links = [
+	{ url = "@/_index.md", name = "Home" },
+	{ url = "@/research/_index.md", name = "Research" },
+	{ url = "@/projects/_index.md", name = "Projects" },
+	{ url = "@/blog/_index.md", name = "Blog" },
+	{ url = "@/cv.md", name = "CV" },
+]
+# Social links in the footer.
+# Any URL-encoded SVG can be used as an icon.
+# https://simpleicons.org is the recommended source of SVG icons.
+# For URL encoding use https://yoksel.github.io/url-encoder/.
+# Make sure that "external quotes" are set to "double".
+socials = [
+	{ url = "https://github.com/akramlodi", name = "GitHub", icon = "%3Csvg role='img' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Ctitle%3EGitHub%3C/title%3E%3Cpath d='M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12'/%3E%3C/svg%3E" },
+	{ url = "https://www.linkedin.com/in/mdakramlodi/", name = "Linkedin", icon = "%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22currentColor%22%20class%3D%22bi%20bi-linkedin%22%20viewBox%3D%220%200%2016%2016%22%3E%0A%20%20%3Cpath%20d%3D%22M0%201.146C0%20.513.526%200%201.175%200h13.65C15.474%200%2016%20.513%2016%201.146v13.708c0%20.633-.526%201.146-1.175%201.146H1.175C.526%2016%200%2015.487%200%2014.854zm4.943%2012.248V6.169H2.542v7.225zm-1.2-8.212c.837%200%201.358-.554%201.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4%203.226%202.4%203.934c0%20.694.521%201.248%201.327%201.248zm4.908%208.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878%201.232-.878.869%200%201.216.662%201.216%201.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274%200-1.845.7-2.165%201.193v.025h-.016l.016-.025V6.169h-2.4c.03.678%200%207.225%200%207.225z%22%2F%3E%0A%3C%2Fsvg%3E" },
+	{ url = "https://x.com/theakramist", name = "Twitter", icon = "%3Csvg role='img' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Ctitle%3ETwitter%3C/title%3E%3Cpath d='M21.543 7.104c.015.211.015.423.015.636 0 6.507-4.954 14.01-14.01 14.01v-.003A13.94 13.94 0 0 1 0 19.539a9.88 9.88 0 0 0 7.287-2.041 4.93 4.93 0 0 1-4.6-3.42 4.916 4.916 0 0 0 2.223-.084A4.926 4.926 0 0 1 .96 9.167v-.062a4.887 4.887 0 0 0 2.235.616A4.928 4.928 0 0 1 1.67 3.148 13.98 13.98 0 0 0 11.82 8.292a4.929 4.929 0 0 1 8.39-4.49 9.868 9.868 0 0 0 3.128-1.196 4.941 4.941 0 0 1-2.165 2.724A9.828 9.828 0 0 0 24 4.555a10.019 10.019 0 0 1-2.457 2.549z'/%3E%3C/svg%3E" }
+]
+# Whether to show "© Title, YEAR"
+show_copyright = true
+# Whether to show "Powered by Zola and Duckquill"
+show_powered_by = true
+# Whether to show link to website source
+show_source = false
+# Custom copyright text
+#
+# copyright = "© *Aperture* **Science** ~~Innovators~~, `1972`"
+
+# Based on https://carlschwan.eu/2020/12/29/adding-comments-to-your-static-blog-with-mastodon/
+#
+# Mastodon-powered commenting.
+# Values can be overridden in the front-matter, e.g.
+# for multi-author blogs or guest posts.
+#
+# These variables are also used for Mastodon verification,
+# the needed rel="me" link is set in the head based on these.
+#
+# [extra.comments]
+# Your Mastodon API host; instance that you have an account on.
+# host = "YOUR_INSTANCE"
+# Your Mastodon username; used to determine who the original poster is.
+# user = "YOUR_USERNAME"
+# Whether to show the QR code to Mastodon post
+# show_qr = true
+
+# GoatCounter analytics; enabled only if present in config.
+#
+# [extra.goatcounter]
+# Your GoatCounter server; goatcounter.com is used by default.
+#
+# host = "YOUR_SERVER"
+#
+# Your GoatCounter username
+# user = "YOUR_USERNAME"
+
+[extra.debug]
+# Display outlines around all elements for debugging purposes
+layout = false
+# Don't load any styles for debugging purposes
+no_styles = false

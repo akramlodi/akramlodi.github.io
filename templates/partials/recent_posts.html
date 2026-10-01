@@ -1,0 +1,8 @@
+{%- set blog = get_section(path="blog/_index.md") -%}
+{%- if blog.pages | length > 0 %}
+<ul>
+	{%- for post in blog.pages | slice(end=3) %}
+		<li><a href="{{ post.permalink | safe }}">{{ post.title }}</a>{% if post.date %} · <small>{{ post.date | date(format="%B %Y") }}</small>{% endif %}</li>
+	{%- endfor %}
+</ul>
+{%- endif %}
