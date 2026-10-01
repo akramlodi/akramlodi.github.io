@@ -3,43 +3,43 @@
 		<title id="shrlm-loop-title">One Self-Harness optimization round: the current harness is run for weakness mining, the same model proposes single-surface edits, validation promotes or rejects them, and the promoted harness becomes the next round's starting point.</title>
 		<defs>
 			<marker id="shrlm-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
-				<path class="arrow-head" d="M0 0 L10 5 L0 10 z" />
+				<path class="arrow-head" fill="currentColor" d="M0 0 L10 5 L0 10 z" />
 			</marker>
 		</defs>
 
-		<rect class="box-accent" x="4" y="50" width="136" height="86" rx="12" />
-		<text class="label" x="72" y="86" text-anchor="middle">Harness Hₜ</text>
-		<text class="sub" x="72" y="108" text-anchor="middle">10 editable surfaces</text>
+		<rect class="box-accent" fill="none" stroke="#ffa348" stroke-width="1.5" x="4" y="50" width="136" height="86" rx="12" />
+		<text class="label" fill="currentColor" font-weight="bold" font-size="15" x="72" y="86" text-anchor="middle">Harness Hₜ</text>
+		<text class="sub" fill="currentColor" font-size="12" x="72" y="108" text-anchor="middle">10 editable surfaces</text>
 
-		<rect class="box" x="158" y="50" width="136" height="86" rx="12" />
-		<text class="label" x="226" y="80" text-anchor="middle">Weakness mining</text>
-		<text class="sub" x="226" y="102" text-anchor="middle">run on mining data,</text>
-		<text class="sub" x="226" y="118" text-anchor="middle">cluster failures by ϕ</text>
+		<rect class="box" fill="none" stroke="currentColor" stroke-width="1.5" x="158" y="50" width="136" height="86" rx="12" />
+		<text class="label" fill="currentColor" font-weight="bold" font-size="15" x="226" y="80" text-anchor="middle">Weakness mining</text>
+		<text class="sub" fill="currentColor" font-size="12" x="226" y="102" text-anchor="middle">run on mining data,</text>
+		<text class="sub" fill="currentColor" font-size="12" x="226" y="118" text-anchor="middle">cluster failures by ϕ</text>
 
-		<rect class="box" x="312" y="50" width="136" height="86" rx="12" />
-		<text class="label" x="380" y="80" text-anchor="middle">Harness proposal</text>
-		<text class="sub" x="380" y="102" text-anchor="middle">K minimal edits,</text>
-		<text class="sub" x="380" y="118" text-anchor="middle">one surface each</text>
+		<rect class="box" fill="none" stroke="currentColor" stroke-width="1.5" x="312" y="50" width="136" height="86" rx="12" />
+		<text class="label" fill="currentColor" font-weight="bold" font-size="15" x="380" y="80" text-anchor="middle">Harness proposal</text>
+		<text class="sub" fill="currentColor" font-size="12" x="380" y="102" text-anchor="middle">K minimal edits,</text>
+		<text class="sub" fill="currentColor" font-size="12" x="380" y="118" text-anchor="middle">one surface each</text>
 
-		<rect class="box" x="466" y="50" width="136" height="86" rx="12" />
-		<text class="label" x="534" y="80" text-anchor="middle">Validation</text>
-		<text class="sub" x="534" y="102" text-anchor="middle">mining + held-out</text>
-		<text class="sub" x="534" y="118" text-anchor="middle">no-regression gate</text>
+		<rect class="box" fill="none" stroke="currentColor" stroke-width="1.5" x="466" y="50" width="136" height="86" rx="12" />
+		<text class="label" fill="currentColor" font-weight="bold" font-size="15" x="534" y="80" text-anchor="middle">Validation</text>
+		<text class="sub" fill="currentColor" font-size="12" x="534" y="102" text-anchor="middle">mining + held-out</text>
+		<text class="sub" fill="currentColor" font-size="12" x="534" y="118" text-anchor="middle">no-regression gate</text>
 
-		<rect class="box-accent" x="620" y="50" width="136" height="86" rx="12" />
-		<text class="label" x="688" y="86" text-anchor="middle">Harness Hₜ₊₁</text>
-		<text class="sub" x="688" y="108" text-anchor="middle">merged, re-checked</text>
+		<rect class="box-accent" fill="none" stroke="#ffa348" stroke-width="1.5" x="620" y="50" width="136" height="86" rx="12" />
+		<text class="label" fill="currentColor" font-weight="bold" font-size="15" x="688" y="86" text-anchor="middle">Harness Hₜ₊₁</text>
+		<text class="sub" fill="currentColor" font-size="12" x="688" y="108" text-anchor="middle">merged, re-checked</text>
 
-		<path class="arrow" d="M140 93 H156" marker-end="url(#shrlm-arrow)" />
-		<path class="arrow" d="M294 93 H310" marker-end="url(#shrlm-arrow)" />
-		<path class="arrow" d="M448 93 H464" marker-end="url(#shrlm-arrow)" />
-		<path class="arrow" d="M602 93 H618" marker-end="url(#shrlm-arrow)" />
+		<path class="arrow" fill="none" stroke="currentColor" d="M140 93 H156" marker-end="url(#shrlm-arrow)" />
+		<path class="arrow" fill="none" stroke="currentColor" d="M294 93 H310" marker-end="url(#shrlm-arrow)" />
+		<path class="arrow" fill="none" stroke="currentColor" d="M448 93 H464" marker-end="url(#shrlm-arrow)" />
+		<path class="arrow" fill="none" stroke="currentColor" d="M602 93 H618" marker-end="url(#shrlm-arrow)" />
 
-		<path class="arrow reject" d="M534 50 V24 H72 V48" marker-end="url(#shrlm-arrow)" />
-		<text class="sub" x="303" y="16" text-anchor="middle">all candidates rejected → keep Hₜ</text>
+		<path class="arrow reject" fill="none" stroke="currentColor" d="M534 50 V24 H72 V48" marker-end="url(#shrlm-arrow)" />
+		<text class="sub" fill="currentColor" font-size="12" x="303" y="16" text-anchor="middle">all candidates rejected → keep Hₜ</text>
 
-		<path class="arrow" d="M688 136 V180 H72 V138" marker-end="url(#shrlm-arrow)" />
-		<text class="sub" x="380" y="204" text-anchor="middle">promoted harness becomes the next round's Hₜ</text>
+		<path class="arrow" fill="none" stroke="currentColor" d="M688 136 V180 H72 V138" marker-end="url(#shrlm-arrow)" />
+		<text class="sub" fill="currentColor" font-size="12" x="380" y="204" text-anchor="middle">promoted harness becomes the next round's Hₜ</text>
 	</svg>
 	<figcaption>One optimization round. The same frozen model executes tasks, mines its own failures, and proposes edits; only edits that survive validation are promoted.</figcaption>
 </figure>
