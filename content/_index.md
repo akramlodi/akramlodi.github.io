@@ -21,7 +21,7 @@ d88P     888 888    Y88b 888   T88b d88P     888 888       888
 
 I'm **Mohammed Akram**, a computer science undergraduate at B.S. Abdur Rahman Crescent Institute of Science and Technology (GPA 9.77/10, rank 1 in batch). I study how language-model systems can **improve themselves without changing their weights**, and **what that improvement costs**.
 
-Right now I'm working on **self-harnessing recursive language models** at the Algoverse AI Research Program with Dr. Simon Coumes: can a frozen model mine its own failures, rewrite the harness that controls its recursion, and still generalize to inputs 8–32× longer? Separately, I'm measuring the **energy and carbon cost of fine-tuning** reasoning models.
+Right now I'm working on **self-harnessing recursive language models** at the Algoverse AI Research Program with Dr. Simon Coumes: can a frozen model mine its own failures, rewrite the harness that controls its recursion, and still generalize to inputs 8–32× longer? Separately, I measured the **energy and carbon cost of fine-tuning** a reasoning model: fine-tuning a strong instruction-tuned model on GSM8K spent 2.99 kWh across 10 runs and *lowered* accuracy by 23–28 points.
 
 Before research, I built AI products. I co-founded [Airbil](https://airbil.in), an AI-native agency building multi-agent systems, and PocketLink, a link-in-bio platform that grew to 20,000+ users. Building agents in production is what got me interested in why they fail.
 

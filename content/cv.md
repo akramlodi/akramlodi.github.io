@@ -49,13 +49,14 @@ Transferred from the University of Victoria
 - Debugged and validated the experimental and evaluation infrastructure across benchmark configurations, supporting the full loop of weakness mining, harness proposal, proposal validation, and optimized-harness evaluation.
 - Analyzed optimized harnesses against initial and manually engineered baselines on correctness, recursive behavior, generalization across task configurations, and computational efficiency.
 
-**Independent Researcher, The Carbon Cost of Reasoning** · Apr 2026 – present  
+**Independent Researcher, The Carbon Cost of Reasoning** · Apr 2026 – Oct 2026  
 *B.S. Abdur Rahman Crescent Institute of Science and Technology*
 
-- Designed a controlled comparison of Full Fine-Tuning, LoRA, and QLoRA on Google's Gemma 4 E2B-it (~5.1B parameters) on GSM8K, measuring mathematical reasoning accuracy alongside environmental cost.
+- Designed a controlled comparison of LoRA and QLoRA fine-tuning on Google's Gemma 4 E2B-it (~5.1B parameters) on GSM8K, measuring mathematical reasoning accuracy alongside environmental cost.
 - Implemented energy and emissions tracking with CodeCarbon, recording GPU, CPU, and RAM energy (kWh) and estimated CO₂e per training run from the cloud region's grid carbon intensity.
-- Designed reproducible experiments with fixed prompt templates, dataset splits, and evaluation protocols: Full FT, LoRA (ranks 8/16/32), and QLoRA (4-bit NF4; ranks 8/16/32) across core and ablation runs on AWS EC2 (NVIDIA A10G and L40S).
+- Designed reproducible experiments with fixed prompt templates, dataset splits, and evaluation protocols: LoRA (ranks 8/16/32) and QLoRA (4-bit NF4; ranks 8/16/32) across core and ablation runs on AWS EC2 (NVIDIA A10G).
 - Introduced the **Green Gap**, the point where marginal reasoning improvement per additional kWh declines sharply, and the **Reasoning Efficiency Index (REI)**, accuracy gained over zero-shot per kWh consumed.
+- Ran 10 LoRA/QLoRA runs on AWS (2.99 kWh, 1.10 kg CO₂e). Fine-tuning lowered accuracy from 88.8% zero-shot to 61–66% (REI ≈ −0.87 /kWh); traced the drop to the model imitating GSM8K's terse reference solutions, and showed QLoRA used 16% more energy than LoRA when memory was not a constraint.
 
 ## Industry experience
 
