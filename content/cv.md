@@ -81,6 +81,12 @@ Transferred from the University of Victoria
 
 ## Projects
 
+**[Elephantus: a Memory Layer for AI Apps](@/projects/elephantus/index.md)** · Oct 2026 · [code](https://github.com/akramlodi/elephantus)
+
+- Local memory engine that extracts atomic facts from conversations and uses an LLM judge to link each one to existing memories as new, updating, extending or duplicate, so only currently true facts are retrieved.
+- Hybrid retrieval (bge-small embeddings + SQLite FTS5, merged with Reciprocal Rank Fusion), time-based expiry, and one engine shared by a FastAPI REST API, an MCP server for Claude Desktop, and a terminal-style web UI.
+- On a 25-scenario evaluation, matched naive RAG on Recall@3 (99% vs 98%) while cutting the stale-fact rate from 100% to 17%.
+
 **[NDA Analyzer: Multi-Agent RAG System](@/projects/nda-analyzer/index.md)** · Apr 2026 · [code](https://github.com/akramlodi/NDA-Analyzer---multi-agent-orchestration)
 
 - Four-agent LLM pipeline for employment-NDA analysis: clause extraction, loophole detection, legal-compliance verification, and fix generation.
