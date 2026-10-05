@@ -5,7 +5,7 @@ path = "cv"
 +++
 
 **Mohammed Akram Khan Lodi** · Chennai, India  
-<mdakram23741@gmail.com> · [akramlodi.com](https://akramlodi.com) · [GitHub](https://github.com/akramlodi) · [LinkedIn](https://www.linkedin.com/in/mdakramlodi)
+<mdakram23741@gmail.com> · [akramlodi.com](https://akramlodi.com) · [GitHub](https://github.com/akramlodi) · [LinkedIn](https://www.linkedin.com/in/mdakramlodi) · [Full CV](https://drive.google.com/file/d/17y8lXSuTDBRcMBZETkIp8DqsiQJfimeO/view?usp=sharing)
 
 ## Research interests
 
